@@ -4,7 +4,6 @@ package view;
 import common.Library;
 import java.util.ArrayList;
 
-
 public abstract class Menu<T> {
     protected String title;
     protected ArrayList<T> options;
@@ -35,4 +34,5 @@ public abstract class Menu<T> {
                 break;
         }
     }
+    
 }
